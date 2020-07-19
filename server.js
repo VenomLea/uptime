@@ -23,5 +23,5 @@ const listener = app.listen(process.env.PORT, function() {
 });
 
 setInterval(() => {
-  axios.get("https://davetbotuloz.glitch.me/")
+  axios.get("https://botadi.glitch.me/")
 }, 3000*60)
